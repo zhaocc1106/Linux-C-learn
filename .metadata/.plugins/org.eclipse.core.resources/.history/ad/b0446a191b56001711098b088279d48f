@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<unistd.h>
+#include<aio.h>
+#include<stdlib.h>
+#include<fcntl.h>
+
+void main(void)
+{
+	int fd, ret;
+	struct aiocb m_aiocb;
+
+	fd = open("test.txt", O_RDONLY | O_CREAT | O_EXCL | O_TRUNC)
+}

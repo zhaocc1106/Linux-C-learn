@@ -1,0 +1,6 @@
+21:55:54 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+
+21:55:54 Build Finished (took 179ms)
+

@@ -1,0 +1,10 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:first,org.eclipse.launchbar.core.descriptorType.default\:IOTest,org.eclipse.launchbar.core.descriptorType.default\:FileIOTest,org.eclipse.launchbar.core.descriptorType.default\:LocalSocketClient,org.eclipse.launchbar.core.descriptorType.default\:LocalSocketServer,org.eclipse.launchbar.core.descriptorType.default\:LocalSocketServer (1),org.eclipse.launchbar.core.descriptorType.default\:SocketServer,org.eclipse.launchbar.core.descriptorType.default\:SelectTest,org.eclipse.launchbar.core.descriptorType.default\:PollTest,org.eclipse.launchbar.core.descriptorType.default\:EpollTest
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:FileIOTest/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:FileIOTest/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:LocalSocketServer/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:SelectTest/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:first/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:first/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

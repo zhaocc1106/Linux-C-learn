@@ -1,0 +1,46 @@
+#include<stdio.h>
+#include<unistd.h>
+#include<aio.h>
+#include<stdlib.h>
+#include<fcntl.h>
+#include<string.h>
+#include<sys/types.h>
+#include<errno.h>
+#define BUFSIZE 1024
+
+void main(void)
+{
+	int fd, ret;
+	struct aiocb m_aiocb;
+
+	fd = open("test.txt", O_CREAT | O_TRUNC);
+
+	if(fd < 0) {
+		perror("open");
+		exit(0);
+	}
+
+	bzero(&m_aiocb, sizeof(struct aiocb));
+	m_aiocb.aio_fildes = fd;
+	m_aiocb.aio_buf = malloc(BUFSIZE + 1);
+	m_aiocb.aio_nbytes = BUFSIZE;
+	m_aiocb.aio_offset = 0;
+
+	ret = aio_read(&m_aiocb);
+	if (ret < 0) {
+		perror("aio_read");
+		exit(0);
+	}
+
+	while ((ret = aio_error(&m_aiocb)) == EINPROGRESS) {
+		printf("ret:%d EINPROGRESS:%d\n", ret, EINPROGRESS);
+		//continue;
+		sleep(100);
+	}
+
+	if ((ret = aio_return(&m_aiocb)) <= 0) {
+		perror("aio_return");
+	} else {
+		printf("string:%s", m_aiocb.aio_buf + m_aiocb.aio_offset);
+	}
+}

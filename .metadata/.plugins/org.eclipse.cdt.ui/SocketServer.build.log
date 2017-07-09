@@ -1,0 +1,6 @@
+21:55:55 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+
+21:55:55 Build Finished (took 116ms)
+

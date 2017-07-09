@@ -1,0 +1,3525 @@
+09:33:06 **** Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+../open_close.c: In function ‘main’:
+../open_close.c:14:8: warning: assignment makes pointer from integer without a cast [enabled by default]
+  if(fp = fopen("hello.txt", "r+") == NULL)
+        ^
+../open_close.c:14:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if(fp = fopen("hello.txt", "r+") == NULL)
+  ^
+../open_close.c:13:6: warning: unused variable ‘fd’ [-Wunused-variable]
+  int fd;
+      ^
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+09:33:27 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+Building file: ../BufTest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BufTest.d" -MT"BufTest.o" -o "BufTest.o" "../BufTest.c"
+Finished building: ../BufTest.c
+ 
+Building target: IOTest
+Invoking: GCC C Linker
+gcc  -o "IOTest"  ./BufTest.o   
+Finished building target: IOTest
+ 
+09:33:36 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+09:34:00 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+../open_close.c: In function ‘main’:
+../open_close.c:14:8: warning: assignment makes pointer from integer without a cast [enabled by default]
+  if(fp = fopen("hello.txt", "w+") == NULL)
+        ^
+../open_close.c:14:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if(fp = fopen("hello.txt", "w+") == NULL)
+  ^
+../open_close.c:13:6: warning: unused variable ‘fd’ [-Wunused-variable]
+  int fd;
+      ^
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+09:44:23 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+../open_close.c: In function ‘main’:
+../open_close.c:14:8: warning: assignment makes pointer from integer without a cast [enabled by default]
+  if(fp = fopen("hello.txt", "a+") == NULL)
+        ^
+../open_close.c:14:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if(fp = fopen("hello.txt", "a+") == NULL)
+  ^
+../open_close.c:13:6: warning: unused variable ‘fd’ [-Wunused-variable]
+  int fd;
+      ^
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+09:45:00 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+../open_close.c: In function ‘main’:
+../open_close.c:13:6: warning: unused variable ‘fd’ [-Wunused-variable]
+  int fd;
+      ^
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+11:30:32 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+../open_close.c: In function ‘main’:
+../open_close.c:13:6: warning: unused variable ‘fd’ [-Wunused-variable]
+  int fd;
+      ^
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+11:31:08 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+../open_close.c: In function ‘main’:
+../open_close.c:13:6: warning: unused variable ‘fd’ [-Wunused-variable]
+  int fd;
+      ^
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+11:31:30 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+../open_close.c: In function ‘main’:
+../open_close.c:13:6: warning: unused variable ‘fd’ [-Wunused-variable]
+  int fd;
+      ^
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+11:31:52 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+../open_close.c: In function ‘main’:
+../open_close.c:13:6: warning: unused variable ‘fd’ [-Wunused-variable]
+  int fd;
+      ^
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+11:35:34 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+11:36:03 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+12:54:22 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+../open_close.c: In function ‘main’:
+../open_close.c:28:10: error: incompatible types when assigning to type ‘FILE’ from type ‘struct FILE *’
+  if((fp1 = fdopen(fd, "r")) == NULL)
+          ^
+../open_close.c:35:2: error: incompatible type for argument 1 of ‘fgetc’
+  while((c = fgetc(fp1)) != EOF)
+  ^
+In file included from ../open_close.c:7:0:
+/usr/include/stdio.h:531:12: note: expected ‘struct FILE *’ but argument is of type ‘FILE’
+ extern int fgetc (FILE *__stream);
+            ^
+../open_close.c:44:2: error: incompatible type for argument 1 of ‘fclose’
+  fclose(fp1);
+  ^
+In file included from ../open_close.c:7:0:
+/usr/include/stdio.h:237:12: note: expected ‘struct FILE *’ but argument is of type ‘FILE’
+ extern int fclose (FILE *__stream);
+            ^
+make: *** [open_close.o] Error 1
+12:54:37 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+12:57:19 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+12:57:57 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+12:58:26 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+12:58:59 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+12:59:27 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+12:59:40 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+12:59:45 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+13:09:44 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+13:32:15 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+Building file: ../open_close.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"open_close.d" -MT"open_close.o" -o "open_close.o" "../open_close.c"
+Finished building: ../open_close.c
+ 
+Building target: FileIOTest
+Invoking: GCC C Linker
+gcc  -o "FileIOTest"  ./open_close.o   
+Finished building target: FileIOTest
+ 
+16:45:13 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+16:45:13 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+Building file: ../BufTest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BufTest.d" -MT"BufTest.o" -o "BufTest.o" "../BufTest.c"
+Finished building: ../BufTest.c
+ 
+Building target: IOTest
+Invoking: GCC C Linker
+gcc  -o "IOTest"  ./BufTest.o   
+Finished building target: IOTest
+ 
+16:45:14 **** Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_listen’:
+../server.c:33:2: warning: passing argument 4 of ‘setsockopt’ makes pointer from integer without a cast [enabled by default]
+  setsockopt(serverfd, SOL_SOCKET, SO_REUSEADDR, n, sizeof n);
+  ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:226:12: note: expected ‘const void *’ but argument is of type ‘int’
+ extern int setsockopt (int __fd, int __level, int __optname,
+            ^
+../server.c: At top level:
+../server.c:52:5: error: conflicting types for ‘serv_accept’
+ int serv_accept(int listenfd, uid_t *uidptr) {
+     ^
+../server.c:10:5: note: previous declaration of ‘serv_accept’ was here
+ int serv_accept(int listenfd);
+     ^
+../server.c: In function ‘serv_accept’:
+../server.c:58:41: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+   if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                         ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+../server.c:64:14: error: storage size of ‘statbuf’ isn’t known
+  struct stat statbuf;
+              ^
+../server.c:65:2: warning: implicit declaration of function ‘stat’ [-Wimplicit-function-declaration]
+  if (stat(client_sun.sun_path, &statbuf) < 0)
+  ^
+../server.c:70:2: warning: implicit declaration of function ‘S_IFSOCK’ [-Wimplicit-function-declaration]
+  if (S_IFSOCK(statbuf.st_mode))
+  ^
+../server.c:64:14: warning: unused variable ‘statbuf’ [-Wunused-variable]
+  struct stat statbuf;
+              ^
+make: *** [server.o] Error 1
+16:45:14 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+16:46:20 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+16:46:20 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+16:46:20 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_listen’:
+../server.c:34:2: warning: passing argument 4 of ‘setsockopt’ makes pointer from integer without a cast [enabled by default]
+  setsockopt(serverfd, SOL_SOCKET, SO_REUSEADDR, n, sizeof n);
+  ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:226:12: note: expected ‘const void *’ but argument is of type ‘int’
+ extern int setsockopt (int __fd, int __level, int __optname,
+            ^
+../server.c: In function ‘serv_accept’:
+../server.c:59:41: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+   if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                         ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+../server.c:71:14: error: called object is not a function or function pointer
+  if (S_IFSOCK(statbuf.st_mode))
+              ^
+make: *** [server.o] Error 1
+16:46:20 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+16:46:34 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+16:46:34 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+16:46:34 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_listen’:
+../server.c:34:2: warning: passing argument 4 of ‘setsockopt’ makes pointer from integer without a cast [enabled by default]
+  setsockopt(serverfd, SOL_SOCKET, SO_REUSEADDR, n, sizeof n);
+  ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:226:12: note: expected ‘const void *’ but argument is of type ‘int’
+ extern int setsockopt (int __fd, int __level, int __optname,
+            ^
+../server.c: In function ‘serv_accept’:
+../server.c:59:41: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+   if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                         ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+16:46:34 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+16:47:03 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+16:51:02 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_listen’:
+../server.c:34:2: warning: passing argument 4 of ‘setsockopt’ makes pointer from integer without a cast [enabled by default]
+  setsockopt(serverfd, SOL_SOCKET, SO_REUSEADDR, n, sizeof n);
+  ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:226:12: note: expected ‘const void *’ but argument is of type ‘int’
+ extern int setsockopt (int __fd, int __level, int __optname,
+            ^
+../server.c: In function ‘serv_accept’:
+../server.c:59:41: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+   if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                         ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+16:55:09 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_listen’:
+../server.c:34:2: warning: passing argument 4 of ‘setsockopt’ makes pointer from integer without a cast [enabled by default]
+  setsockopt(serverfd, SOL_SOCKET, SO_REUSEADDR, n, sizeof n);
+  ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:226:12: note: expected ‘const void *’ but argument is of type ‘int’
+ extern int setsockopt (int __fd, int __level, int __optname,
+            ^
+../server.c: In function ‘serv_accept’:
+../server.c:59:41: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+   if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                         ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+16:55:36 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_listen’:
+../server.c:34:2: warning: passing argument 4 of ‘setsockopt’ makes pointer from integer without a cast [enabled by default]
+  setsockopt(serverfd, SOL_SOCKET, SO_REUSEADDR, n, sizeof(n));
+  ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:226:12: note: expected ‘const void *’ but argument is of type ‘int’
+ extern int setsockopt (int __fd, int __level, int __optname,
+            ^
+../server.c: In function ‘serv_accept’:
+../server.c:59:41: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+   if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                         ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+16:56:28 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_listen’:
+../server.c:35:2: warning: passing argument 4 of ‘setsockopt’ makes pointer from integer without a cast [enabled by default]
+  setsockopt(serverfd, SOL_SOCKET, SO_REUSEADDR, n, sizeof(n));
+  ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:226:12: note: expected ‘const void *’ but argument is of type ‘int’
+ extern int setsockopt (int __fd, int __level, int __optname,
+            ^
+../server.c: In function ‘serv_accept’:
+../server.c:60:41: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+   if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                         ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+16:57:08 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:60:41: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+   if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                         ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+16:57:18 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+17:00:52 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:61:41: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+   if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                         ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+17:15:35 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+17:15:35 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+17:15:36 **** Build of configuration Debug for project LocalSocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+../client.c: In function ‘main’:
+../client.c:13:10: warning: unused variable ‘retval’ [-Wunused-variable]
+  int fd, retval;
+          ^
+../client.c: In function ‘client_connect’:
+../client.c:35:2: warning: unknown conversion type character 0xa in format [-Wformat=]
+  printf("client_sun_path:%\n", sun.sun_path);
+  ^
+../client.c:35:2: warning: too many arguments for format [-Wformat-extra-args]
+../client.c:43:33: warning: passing argument 3 of ‘connect’ makes integer from pointer without a cast [enabled by default]
+  if ((connect(clientfd, (struct sockaddr*)NULL, NULL)) < 0) {
+                                 ^
+In file included from ../client.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:137:12: note: expected ‘socklen_t’ but argument is of type ‘void *’
+ extern int connect (int __fd, __CONST_SOCKADDR_ARG __addr, socklen_t __len);
+            ^
+Finished building: ../client.c
+ 
+Building target: LocalSocketClient
+Invoking: GCC C Linker
+gcc  -o "LocalSocketClient"  ./client.o   
+Finished building target: LocalSocketClient
+ 
+17:15:36 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+17:15:36 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+17:16:16 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+17:16:16 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+17:16:17 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+../client.c: In function ‘client_connect’:
+../client.c:35:2: warning: unknown conversion type character 0xa in format [-Wformat=]
+  printf("client_sun_path:%\n", sun.sun_path);
+  ^
+../client.c:35:2: warning: too many arguments for format [-Wformat-extra-args]
+../client.c:43:33: warning: passing argument 3 of ‘connect’ makes integer from pointer without a cast [enabled by default]
+  if ((connect(clientfd, (struct sockaddr*)NULL, NULL)) < 0) {
+                                 ^
+In file included from ../client.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:137:12: note: expected ‘socklen_t’ but argument is of type ‘void *’
+ extern int connect (int __fd, __CONST_SOCKADDR_ARG __addr, socklen_t __len);
+            ^
+Finished building: ../client.c
+ 
+Building target: LocalSocketClient
+Invoking: GCC C Linker
+gcc  -o "LocalSocketClient"  ./client.o   
+Finished building target: LocalSocketClient
+ 
+17:16:17 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+17:16:17 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+17:18:56 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+17:18:56 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+17:18:56 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+../client.c: In function ‘client_connect’:
+../client.c:35:2: warning: unknown conversion type character 0xa in format [-Wformat=]
+  printf("client_sun_path:%\n", sun.sun_path);
+  ^
+../client.c:35:2: warning: too many arguments for format [-Wformat-extra-args]
+Finished building: ../client.c
+ 
+Building target: LocalSocketClient
+Invoking: GCC C Linker
+gcc  -o "LocalSocketClient"  ./client.o   
+Finished building target: LocalSocketClient
+ 
+17:18:56 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:61:41: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+   if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                         ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+17:18:56 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+17:19:10 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+17:20:22 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+17:21:03 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+Finished building: ../client.c
+ 
+Building target: LocalSocketClient
+Invoking: GCC C Linker
+gcc  -o "LocalSocketClient"  ./client.o   
+Finished building target: LocalSocketClient
+ 
+17:25:37 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+Finished building: ../client.c
+ 
+Building target: LocalSocketClient
+Invoking: GCC C Linker
+gcc  -o "LocalSocketClient"  ./client.o   
+Finished building target: LocalSocketClient
+ 
+17:25:53 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+17:26:24 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+Finished building: ../client.c
+ 
+Building target: LocalSocketClient
+Invoking: GCC C Linker
+gcc  -o "LocalSocketClient"  ./client.o   
+Finished building target: LocalSocketClient
+ 
+17:34:22 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:60:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+17:35:46 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:60:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+17:39:36 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:61:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+17:40:12 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_listen’:
+../server.c:35:6: warning: unused variable ‘n’ [-Wunused-variable]
+  int n = 1;
+      ^
+../server.c: In function ‘serv_accept’:
+../server.c:61:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+17:40:49 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_listen’:
+../server.c:36:6: warning: unused variable ‘n’ [-Wunused-variable]
+  int n = 1;
+      ^
+../server.c: In function ‘serv_accept’:
+../server.c:62:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+17:49:13 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:62:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+17:49:48 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+17:50:11 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+17:54:20 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:62:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+18:01:40 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+18:05:18 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘main’:
+../server.c:22:3: error: too few arguments to function ‘recv’
+   if ((n = recv(fd, buf, sizeof(buf)), 0) < 0) {
+   ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:156:16: note: declared here
+ extern ssize_t recv (int __fd, void *__buf, size_t __n, int __flags);
+                ^
+../server.c:22:38: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   if ((n = recv(fd, buf, sizeof(buf)), 0) < 0) {
+                                      ^
+../server.c:21:11: warning: variable ‘n’ set but not used [-Wunused-but-set-variable]
+   ssize_t n;
+           ^
+../server.c: In function ‘serv_accept’:
+../server.c:62:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+make: *** [server.o] Error 1
+18:05:44 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘main’:
+../server.c:22:47: error: expected ‘)’ before ‘{’ token
+   if ((n = recv(fd, buf, sizeof(buf), 0) < 0) {
+                                               ^
+../server.c:28:2: error: expected expression before ‘}’ token
+  }
+  ^
+../server.c: In function ‘serv_accept’:
+../server.c:62:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+make: *** [server.o] Error 1
+18:06:21 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:62:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+18:11:03 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:62:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+18:13:35 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:62:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+19:17:12 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘main’:
+../server.c:25:26: error: ‘errno’ undeclared (first use in this function)
+    printf("%s", strerror(errno));
+                          ^
+../server.c:25:26: note: each undeclared identifier is reported only once for each function it appears in
+../server.c: In function ‘serv_accept’:
+../server.c:64:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+make: *** [server.o] Error 1
+19:17:31 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:64:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+19:19:45 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+19:23:35 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_listen’:
+../server.c:37:6: warning: unused variable ‘n’ [-Wunused-variable]
+  int n = 1;
+      ^
+../server.c: In function ‘serv_accept’:
+../server.c:63:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+19:25:24 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:63:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+19:28:15 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+../client.c: In function ‘main’:
+../client.c:22:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘ssize_t’ [-Wformat=]
+   printf("write successful n = %d", n);
+   ^
+Finished building: ../client.c
+ 
+Building target: LocalSocketClient
+Invoking: GCC C Linker
+gcc  -o "LocalSocketClient"  ./client.o   
+Finished building target: LocalSocketClient
+ 
+19:29:26 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+19:36:59 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+../client.c: In function ‘main’:
+../client.c:25:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘ssize_t’ [-Wformat=]
+   printf("write successful n = %d", n);
+   ^
+Finished building: ../client.c
+ 
+Building target: LocalSocketClient
+Invoking: GCC C Linker
+gcc  -o "LocalSocketClient"  ./client.o   
+Finished building target: LocalSocketClient
+ 
+19:37:15 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+19:38:53 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+../client.c: In function ‘main’:
+../client.c:24:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘ssize_t’ [-Wformat=]
+    printf("write successful n = %d", n);
+    ^
+Finished building: ../client.c
+ 
+Building target: LocalSocketClient
+Invoking: GCC C Linker
+gcc  -o "LocalSocketClient"  ./client.o   
+Finished building target: LocalSocketClient
+ 
+19:39:16 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+19:39:55 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+../client.c: In function ‘main’:
+../client.c:24:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘ssize_t’ [-Wformat=]
+    printf("write successful n = %d\n", n);
+    ^
+Finished building: ../client.c
+ 
+Building target: LocalSocketClient
+Invoking: GCC C Linker
+gcc  -o "LocalSocketClient"  ./client.o   
+Finished building target: LocalSocketClient
+ 
+19:40:15 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+19:42:12 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+../client.c: In function ‘main’:
+../client.c:24:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘ssize_t’ [-Wformat=]
+    printf("write successful n = %d\n", n);
+    ^
+Finished building: ../client.c
+ 
+Building target: LocalSocketClient
+Invoking: GCC C Linker
+gcc  -o "LocalSocketClient"  ./client.o   
+Finished building target: LocalSocketClient
+ 
+19:42:43 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+19:42:54 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+19:44:17 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+../client.c: In function ‘main’:
+../client.c:24:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘ssize_t’ [-Wformat=]
+    printf("write successful n = %d\n", n);
+    ^
+Finished building: ../client.c
+ 
+Building target: LocalSocketClient
+Invoking: GCC C Linker
+gcc  -o "LocalSocketClient"  ./client.o   
+Finished building target: LocalSocketClient
+ 
+19:53:18 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+19:53:18 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+19:53:18 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+19:53:19 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:66:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+19:53:20 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+19:53:20 **** Build of configuration Debug for project unix domain IPC ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.c"
+Finished building: ../test.c
+ 
+Building target: unix domain IPC
+Invoking: GCC C Linker
+gcc  -o "unix domain IPC"  ./test.o   
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 0 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 1 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 2 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 3 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 4 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 5 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 6 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 7 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 8 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 9 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 10 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 11 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 12 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 13 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 14 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 15 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 16 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 17 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 18 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 19 has invalid symbol index 21
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_line): relocation 0 has invalid symbol index 2
+/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [unix domain IPC] Error 1
+19:56:32 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+19:56:32 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+19:56:32 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+19:56:32 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+19:56:32 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+19:56:33 **** Incremental Build of configuration Debug for project unix domain IPC ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.c"
+../test.c: In function ‘client_func’:
+../test.c:27:3: warning: implicit declaration of function ‘sprintf’ [-Wimplicit-function-declaration]
+   sprintf(un.sun_path, "file_%d.socket", (int)getpid());
+   ^
+../test.c:27:3: warning: incompatible implicit declaration of built-in function ‘sprintf’ [enabled by default]
+../test.c:35:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("connect server failed...\n");
+     ^
+../test.c:35:5: warning: incompatible implicit declaration of built-in function ‘printf’ [enabled by default]
+../test.c:43:3: warning: incompatible implicit declaration of built-in function ‘printf’ [enabled by default]
+   printf("send data, %d bytes..\n", n);
+   ^
+../test.c: In function ‘main’:
+../test.c:77:7: warning: incompatible implicit declaration of built-in function ‘printf’ [enabled by default]
+       printf("newfd = %d, path = %s\n", newfd, uu.sun_path);
+       ^
+Finished building: ../test.c
+ 
+Building target: unix domain IPC
+Invoking: GCC C Linker
+gcc  -o "unix domain IPC"  ./test.o   
+./test.o: In function `main':
+/home/zhaocc/workspace/unix domain IPC/Debug/../test.c:66: undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make: *** [unix domain IPC] Error 1
+20:03:51 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:66:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+20:07:23 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:66:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+19:55:58 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+19:55:59 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+19:55:59 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+../client.c: In function ‘main’:
+../client.c:23:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘ssize_t’ [-Wformat=]
+   printf("write successful n = %d\n", n);
+   ^
+Finished building: ../client.c
+ 
+Building target: LocalSocketClient
+Invoking: GCC C Linker
+gcc  -o "LocalSocketClient"  ./client.o   
+Finished building target: LocalSocketClient
+ 
+19:56:00 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:63:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+19:56:01 **** Build of configuration Debug for project SelectTest ****
+make all 
+Building file: ../select.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"select.d" -MT"select.o" -o "select.o" "../select.c"
+../select.c: In function ‘serv_select’:
+../select.c:67:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+  for (int i = 0; i < FDS_LEN; i++) {
+  ^
+../select.c:67:2: note: use option -std=c99 or -std=gnu99 to compile your code
+../select.c:74:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+   for (int i = 0; i < FDS_LEN; i++) {
+   ^
+../select.c:81:3: error: incompatible type for argument 5 of ‘select’
+   switch(select(maxfd + 1, &rfds, NULL, NULL, timeout)) {
+   ^
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:219:0,
+                 from /usr/include/stdlib.h:314,
+                 from ../select.c:2:
+/usr/include/x86_64-linux-gnu/sys/select.h:106:12: note: expected ‘struct timeval * __restrict__’ but argument is of type ‘struct timeval’
+ extern int select (int __nfds, fd_set *__restrict __readfds,
+            ^
+../select.c:92:6: error: ‘for’ loop initial declarations are only allowed in C99 mode
+      for (int i = 0; i < FDS_LEN; i++) {
+      ^
+../select.c:103:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+    for (int i = 0; i < FDS_LEN; i++) {
+    ^
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:219:0,
+                 from /usr/include/stdlib.h:314,
+                 from ../select.c:2:
+../select.c:104:25: error: invalid type argument of ‘->’ (have ‘fd_set’)
+     if (fds[i] != -1 && FD_ISSET(fds[i], rfds)) {
+                         ^
+../select.c: In function ‘serv_accept’:
+../select.c:118:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../select.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+make: *** [select.o] Error 1
+19:56:01 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+19:59:42 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+19:59:42 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+19:59:42 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+19:59:42 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+19:59:42 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+Building file: ../select.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"select.d" -MT"select.o" -o "select.o" "../select.c"
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:219:0,
+                 from /usr/include/stdlib.h:314,
+                 from ../select.c:2:
+../select.c: In function ‘serv_select’:
+../select.c:105:25: error: invalid type argument of ‘->’ (have ‘fd_set’)
+     if (fds[i] != -1 && FD_ISSET(fds[i], rfds)) {
+                         ^
+../select.c: In function ‘serv_accept’:
+../select.c:119:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../select.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+make: *** [select.o] Error 1
+19:59:42 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+20:00:04 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+20:00:04 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+20:00:04 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+20:00:04 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+20:00:04 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+Building file: ../select.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"select.d" -MT"select.o" -o "select.o" "../select.c"
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:219:0,
+                 from /usr/include/stdlib.h:314,
+                 from ../select.c:2:
+../select.c: In function ‘serv_select’:
+../select.c:105:27: error: invalid type argument of ‘->’ (have ‘fd_set’)
+     if ((fds[i] != -1) && FD_ISSET(fds[i], rfds)) {
+                           ^
+../select.c: In function ‘serv_accept’:
+../select.c:119:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../select.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+make: *** [select.o] Error 1
+20:00:04 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+20:00:25 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+20:00:25 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+20:00:25 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+20:00:25 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+20:00:25 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+Building file: ../select.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"select.d" -MT"select.o" -o "select.o" "../select.c"
+../select.c: In function ‘serv_accept’:
+../select.c:119:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../select.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../select.c
+ 
+Building target: SelectTest
+Invoking: GCC C Linker
+gcc  -o "SelectTest"  ./select.o   
+Finished building target: SelectTest
+ 
+20:00:25 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+20:00:30 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+20:01:12 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+Building file: ../select.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"select.d" -MT"select.o" -o "select.o" "../select.c"
+../select.c: In function ‘serv_select’:
+../select.c:81:3: warning: implicit declaration of function ‘pritf’ [-Wimplicit-function-declaration]
+   pritf("selecting...\n");
+   ^
+../select.c: In function ‘serv_accept’:
+../select.c:120:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../select.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../select.c
+ 
+Building target: SelectTest
+Invoking: GCC C Linker
+gcc  -o "SelectTest"  ./select.o   
+./select.o: In function `serv_select':
+/home/zhaocc/workspace/SelectTest/Debug/../select.c:81: undefined reference to `pritf'
+collect2: error: ld returned 1 exit status
+make: *** [SelectTest] Error 1
+20:01:33 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+20:01:33 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+20:01:33 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+20:01:33 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+20:01:34 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+Building file: ../select.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"select.d" -MT"select.o" -o "select.o" "../select.c"
+../select.c: In function ‘serv_accept’:
+../select.c:120:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../select.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../select.c
+ 
+Building target: SelectTest
+Invoking: GCC C Linker
+gcc  -o "SelectTest"  ./select.o   
+Finished building target: SelectTest
+ 
+20:01:34 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+20:01:37 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+20:04:02 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+Building file: ../select.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"select.d" -MT"select.o" -o "select.o" "../select.c"
+../select.c: In function ‘serv_accept’:
+../select.c:121:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../select.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../select.c
+ 
+Building target: SelectTest
+Invoking: GCC C Linker
+gcc  -o "SelectTest"  ./select.o   
+Finished building target: SelectTest
+ 
+20:05:48 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+20:09:51 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+20:12:17 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+20:13:38 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+Building file: ../select.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"select.d" -MT"select.o" -o "select.o" "../select.c"
+../select.c: In function ‘serv_accept’:
+../select.c:122:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../select.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../select.c
+ 
+Building target: SelectTest
+Invoking: GCC C Linker
+gcc  -o "SelectTest"  ./select.o   
+Finished building target: SelectTest
+ 
+20:15:09 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+20:16:28 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+Building file: ../select.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"select.d" -MT"select.o" -o "select.o" "../select.c"
+../select.c: In function ‘serv_accept’:
+../select.c:122:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../select.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../select.c
+ 
+Building target: SelectTest
+Invoking: GCC C Linker
+gcc  -o "SelectTest"  ./select.o   
+Finished building target: SelectTest
+ 
+20:18:43 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+20:21:39 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+Building file: ../select.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"select.d" -MT"select.o" -o "select.o" "../select.c"
+../select.c: In function ‘serv_accept’:
+../select.c:124:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../select.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../select.c
+ 
+Building target: SelectTest
+Invoking: GCC C Linker
+gcc  -o "SelectTest"  ./select.o   
+Finished building target: SelectTest
+ 
+20:22:51 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+20:29:34 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+20:30:25 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+Building file: ../select.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"select.d" -MT"select.o" -o "select.o" "../select.c"
+../select.c: In function ‘serv_accept’:
+../select.c:125:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../select.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../select.c
+ 
+Building target: SelectTest
+Invoking: GCC C Linker
+gcc  -o "SelectTest"  ./select.o   
+Finished building target: SelectTest
+ 
+20:30:40 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+20:31:55 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:65:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+20:33:26 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:65:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+20:35:14 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:65:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+20:35:52 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:65:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+20:47:22 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:66:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+20:48:45 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+20:48:45 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+20:48:45 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+20:48:45 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:65:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+20:48:45 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+Building file: ../select.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"select.d" -MT"select.o" -o "select.o" "../select.c"
+../select.c: In function ‘serv_accept’:
+../select.c:124:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../select.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../select.c
+ 
+Building target: SelectTest
+Invoking: GCC C Linker
+gcc  -o "SelectTest"  ./select.o   
+Finished building target: SelectTest
+ 
+20:48:45 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+20:48:59 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+20:53:27 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:65:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+21:21:00 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:22:06 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:22:57 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:29:54 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘main’:
+../server.c:32:2: error: too few arguments to function ‘shutdown’
+  shutdown();
+  ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:261:12: note: declared here
+ extern int shutdown (int __fd, int __how) __THROW;
+            ^
+../server.c: In function ‘serv_accept’:
+../server.c:66:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+make: *** [server.o] Error 1
+21:30:04 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:30:04 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:30:04 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+21:30:04 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:65:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+21:30:04 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+21:30:05 **** Build of configuration Debug for project SocketClient ****
+make all 
+Building target: SocketClient
+Invoking: GCC C Linker
+gcc  -o "SocketClient"  ./client.o   
+Finished building target: SocketClient
+ 
+21:30:05 **** Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c:7:20: fatal error: netinet.h: No such file or directory
+ #include<netinet.h>
+                    ^
+compilation terminated.
+make: *** [server.o] Error 1
+21:30:05 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+21:30:09 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:32:23 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+21:34:01 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+21:35:31 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+21:36:03 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:37:48 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘main’:
+../server.c:29:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘ssize_t’ [-Wformat=]
+    printf("read:%s n = %d\n", buf, n);
+    ^
+../server.c: In function ‘serv_accept’:
+../server.c:65:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+21:38:37 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘main’:
+../server.c:29:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘ssize_t’ [-Wformat=]
+    printf("read:%s n = %d\n", buf, n);
+    ^
+../server.c: In function ‘serv_accept’:
+../server.c:65:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+21:39:32 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:40:01 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘main’:
+../server.c:29:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘ssize_t’ [-Wformat=]
+    printf("read:%s n = %d\n", buf, n);
+    ^
+../server.c: In function ‘serv_accept’:
+../server.c:65:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+21:40:58 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:41:09 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘main’:
+../server.c:29:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘ssize_t’ [-Wformat=]
+    printf("read:%s n = %d\n", buf, n);
+    ^
+../server.c: In function ‘serv_accept’:
+../server.c:65:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+21:49:38 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘main’:
+../server.c:33:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘ssize_t’ [-Wformat=]
+    printf("read:%s n = %d\n", buf, n);
+    ^
+../server.c: In function ‘serv_accept’:
+../server.c:69:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+21:51:00 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘main’:
+../server.c:34:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘ssize_t’ [-Wformat=]
+    printf("read:%s n = %d\n", buf, n);
+    ^
+../server.c: In function ‘serv_accept’:
+../server.c:70:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+22:00:00 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:00:00 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:00:00 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:00:00 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘main’:
+../server.c:34:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘ssize_t’ [-Wformat=]
+    printf("read:%s n = %d\n", buf, n);
+    ^
+../server.c: In function ‘serv_accept’:
+../server.c:70:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: LocalSocketServer
+Invoking: GCC C Linker
+gcc  -o "LocalSocketServer"  ./server.o   
+Finished building target: LocalSocketServer
+ 
+22:00:00 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+22:00:00 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:00:01 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘main’:
+../server.c:34:5: error: expected ‘;’ before ‘exit’
+     exit(0);
+     ^
+../server.c: In function ‘serv_listen’:
+../server.c:50:2: warning: implicit declaration of function ‘inet_addr’ [-Wimplicit-function-declaration]
+  sin.sin_addr = inet_addr(SERV_IP);
+  ^
+../server.c:50:15: error: incompatible types when assigning to type ‘struct in_addr’ from type ‘int’
+  sin.sin_addr = inet_addr(SERV_IP);
+               ^
+../server.c:51:15: warning: assignment makes integer from pointer without a cast [enabled by default]
+  sin.sin_port = SERV_PORT;
+               ^
+../server.c: In function ‘serv_accept’:
+../server.c:70:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sin, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+../server.c:75:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘struct in_addr’ [-Wformat=]
+  printf("accepted, address:%s\n", client_sin.sin_addr);
+  ^
+make: *** [server.o] Error 1
+22:00:01 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+22:00:11 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:00:11 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:00:12 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:00:12 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:00:12 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+22:00:12 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:00:12 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_listen’:
+../server.c:50:2: warning: implicit declaration of function ‘inet_addr’ [-Wimplicit-function-declaration]
+  sin.sin_addr = inet_addr(SERV_IP);
+  ^
+../server.c:50:15: error: incompatible types when assigning to type ‘struct in_addr’ from type ‘int’
+  sin.sin_addr = inet_addr(SERV_IP);
+               ^
+../server.c:51:15: warning: assignment makes integer from pointer without a cast [enabled by default]
+  sin.sin_port = SERV_PORT;
+               ^
+../server.c: In function ‘serv_accept’:
+../server.c:70:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sin, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+../server.c:75:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘struct in_addr’ [-Wformat=]
+  printf("accepted, address:%s\n", client_sin.sin_addr);
+  ^
+make: *** [server.o] Error 1
+22:00:12 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+22:01:08 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:01:08 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:01:08 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:01:08 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:01:08 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+22:01:08 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:01:08 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_listen’:
+../server.c:51:15: error: incompatible types when assigning to type ‘struct in_addr’ from type ‘in_addr_t’
+  sin.sin_addr = inet_addr(SERV_IP);
+               ^
+../server.c: In function ‘serv_accept’:
+../server.c:71:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sin, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+../server.c:76:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘struct in_addr’ [-Wformat=]
+  printf("accepted, address:%s\n", client_sin.sin_addr);
+  ^
+make: *** [server.o] Error 1
+22:01:09 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+22:02:08 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:02:08 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:02:08 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:02:08 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:02:09 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+22:02:09 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:02:09 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_listen’:
+../server.c:51:17: error: invalid type argument of unary ‘*’ (have ‘in_addr_t’)
+  sin.sin_addr = *(inet_addr(SERV_IP));
+                 ^
+../server.c: In function ‘serv_accept’:
+../server.c:71:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sin, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+../server.c:76:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘struct in_addr’ [-Wformat=]
+  printf("accepted, address:%s\n", client_sin.sin_addr);
+  ^
+make: *** [server.o] Error 1
+22:02:09 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+22:02:55 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:02:55 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:02:55 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:02:55 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:02:55 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+22:02:55 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:02:55 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_listen’:
+../server.c:51:25: error: conversion to non-scalar type requested
+  sin.sin_addr = (struct in_addr)inet_addr(SERV_IP);
+                         ^
+../server.c: In function ‘serv_accept’:
+../server.c:71:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sin, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+../server.c:76:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘struct in_addr’ [-Wformat=]
+  printf("accepted, address:%s\n", client_sin.sin_addr);
+  ^
+make: *** [server.o] Error 1
+22:02:55 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+22:04:10 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:04:10 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:04:10 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:04:10 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:04:11 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+22:04:11 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:04:11 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:73:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sin, &un_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+../server.c:78:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘struct in_addr’ [-Wformat=]
+  printf("accepted, address:%s\n", client_sin.sin_addr);
+  ^
+Finished building: ../server.c
+ 
+Building target: SocketServer
+Invoking: GCC C Linker
+gcc  -o "SocketServer"  ./server.o   
+Finished building target: SocketServer
+ 
+22:04:11 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+22:10:21 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:10:21 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:10:21 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:10:21 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:10:21 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+22:10:21 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+../client.c: In function ‘main’:
+../client.c:25:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘ssize_t’ [-Wformat=]
+   printf("write successful n = %d\n", n);
+   ^
+../client.c: In function ‘client_connect’:
+../client.c:35:6: warning: unused variable ‘n’ [-Wunused-variable]
+  int n = 1;
+      ^
+Finished building: ../client.c
+ 
+Building target: SocketClient
+Invoking: GCC C Linker
+gcc  -o "SocketClient"  ./client.o   
+Finished building target: SocketClient
+ 
+22:10:21 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:10:21 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+22:11:42 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:17:41 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:73:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sin, &in_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+../server.c:78:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘struct in_addr’ [-Wformat=]
+  printf("accepted, address:%s\n", client_sin.sin_addr);
+  ^
+Finished building: ../server.c
+ 
+Building target: SocketServer
+Invoking: GCC C Linker
+gcc  -o "SocketServer"  ./server.o   
+Finished building target: SocketServer
+ 
+22:18:26 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:73:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sin, &in_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+../server.c:78:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘struct in_addr’ [-Wformat=]
+  printf("accepted, address:%s\n", client_sin.sin_addr);
+  ^
+Finished building: ../server.c
+ 
+Building target: SocketServer
+Invoking: GCC C Linker
+gcc  -o "SocketServer"  ./server.o   
+Finished building target: SocketServer
+ 
+22:18:45 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:19:37 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:74:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sin, &in_len))
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+../server.c:79:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘struct in_addr’ [-Wformat=]
+  printf("accepted, address:%s\n", client_sin.sin_addr);
+  ^
+Finished building: ../server.c
+ 
+Building target: SocketServer
+Invoking: GCC C Linker
+gcc  -o "SocketServer"  ./server.o   
+Finished building target: SocketServer
+ 
+22:19:44 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:20:11 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:20:56 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:21:09 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:21:24 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:24:17 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+Finished building: ../server.c
+ 
+Building target: SocketServer
+Invoking: GCC C Linker
+gcc  -o "SocketServer"  ./server.o   
+Finished building target: SocketServer
+ 
+22:28:15 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:74:40: error: cannot convert to a pointer type
+  if ((confd = accept(listenfd, (struct sockaddr*) client_sin, &in_len)) < 0) {
+                                        ^
+../server.c:74:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+../server.c:78:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘struct in_addr’ [-Wformat=]
+  printf("accepted, address:%s\n", client_sin.sin_addr);
+  ^
+make: *** [server.o] Error 1
+22:28:38 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:28:38 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:28:38 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:28:38 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:28:38 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+22:28:38 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+../client.c: In function ‘main’:
+../client.c:25:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘ssize_t’ [-Wformat=]
+   printf("write successful n = %d\n", n);
+   ^
+Finished building: ../client.c
+ 
+Building target: SocketClient
+Invoking: GCC C Linker
+gcc  -o "SocketClient"  ./client.o   
+Finished building target: SocketClient
+ 
+22:28:38 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:74:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) (&client_sin), &in_len)) < 0) {
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+../server.c:78:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘struct in_addr’ [-Wformat=]
+  printf("accepted, address:%s\n", client_sin.sin_addr);
+  ^
+Finished building: ../server.c
+ 
+Building target: SocketServer
+Invoking: GCC C Linker
+gcc  -o "SocketServer"  ./server.o   
+Finished building target: SocketServer
+ 
+22:28:38 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+22:28:45 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:32:28 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:75:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) (&client_sin), &sin_len)) < 0) {
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+../server.c:79:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘struct in_addr’ [-Wformat=]
+  printf("accepted, address:%s\n", client_sin.sin_addr);
+  ^
+Finished building: ../server.c
+ 
+Building target: SocketServer
+Invoking: GCC C Linker
+gcc  -o "SocketServer"  ./server.o   
+Finished building target: SocketServer
+ 
+22:34:39 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:74:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) (&client_sin), &sin_len)) < 0) {
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+../server.c:78:2: error: incompatible type for argument 1 of ‘inet_aton’
+  printf("accepted, address:%s\n", inet_aton(client_sin.sin_addr));
+  ^
+In file included from ../server.c:11:0:
+/usr/include/arpa/inet.h:73:12: note: expected ‘const char *’ but argument is of type ‘struct in_addr’
+ extern int inet_aton (const char *__cp, struct in_addr *__inp) __THROW;
+            ^
+../server.c:78:2: error: too few arguments to function ‘inet_aton’
+  printf("accepted, address:%s\n", inet_aton(client_sin.sin_addr));
+  ^
+In file included from ../server.c:11:0:
+/usr/include/arpa/inet.h:73:12: note: declared here
+ extern int inet_aton (const char *__cp, struct in_addr *__inp) __THROW;
+            ^
+make: *** [server.o] Error 1
+22:35:41 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:35:41 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+22:35:41 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:35:41 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+22:35:41 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+22:35:41 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+22:35:41 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:74:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) (&client_sin), &sin_len)) < 0) {
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: SocketServer
+Invoking: GCC C Linker
+gcc  -o "SocketServer"  ./server.o   
+Finished building target: SocketServer
+ 
+22:35:41 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+22:35:47 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+08:25:39 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.o" -o "server.o" "../server.c"
+../server.c: In function ‘serv_accept’:
+../server.c:74:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) (&client_sin), &sin_len)) < 0) {
+                                        ^
+In file included from ../server.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../server.c
+ 
+Building target: SocketServer
+Invoking: GCC C Linker
+gcc  -o "SocketServer"  ./server.o   
+Finished building target: SocketServer
+ 
+15:13:20 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+Building file: ../select.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"select.d" -MT"select.o" -o "select.o" "../select.c"
+../select.c: In function ‘serv_accept’:
+../select.c:124:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../select.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../select.c
+ 
+Building target: SelectTest
+Invoking: GCC C Linker
+gcc  -o "SelectTest"  ./select.o   
+Finished building target: SelectTest
+ 
+15:20:49 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+Building file: ../select.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"select.d" -MT"select.o" -o "select.o" "../select.c"
+../select.c: In function ‘serv_accept’:
+../select.c:124:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../select.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../select.c
+ 
+Building target: SelectTest
+Invoking: GCC C Linker
+gcc  -o "SelectTest"  ./select.o   
+Finished building target: SelectTest
+ 
+15:24:43 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+Building file: ../select.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"select.d" -MT"select.o" -o "select.o" "../select.c"
+../select.c: In function ‘serv_accept’:
+../select.c:115:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../select.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../select.c
+ 
+Building target: SelectTest
+Invoking: GCC C Linker
+gcc  -o "SelectTest"  ./select.o   
+Finished building target: SelectTest
+ 
+20:32:33 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+20:32:33 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+20:32:33 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+20:32:33 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+20:32:33 **** Build of configuration Debug for project PollTest ****
+make all 
+Building file: ../poll.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"poll.d" -MT"poll.o" -o "poll.o" "../poll.c"
+../poll.c: In function ‘main’:
+../poll.c:23:2: warning: implicit declaration of function ‘serv_select’ [-Wimplicit-function-declaration]
+  serv_select(fd);
+  ^
+../poll.c: In function ‘serv_poll’:
+../poll.c:56:25: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  for (i = 1; i < FDS_LEN, i++) {
+                         ^
+../poll.c:56:30: error: expected ‘;’ before ‘)’ token
+  for (i = 1; i < FDS_LEN, i++) {
+                              ^
+../poll.c:62:3: warning: passing argument 3 of ‘poll’ makes integer from pointer without a cast [enabled by default]
+   switch(poll(pfd, FDS_LEN, &timeout)) {
+   ^
+In file included from ../poll.c:11:0:
+/usr/include/x86_64-linux-gnu/sys/poll.h:57:12: note: expected ‘int’ but argument is of type ‘struct timeval *’
+ extern int poll (struct pollfd *__fds, nfds_t __nfds, int __timeout);
+            ^
+../poll.c:74:29: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+      for (i = 0; i < FDS_LEN, i ++) {
+                             ^
+../poll.c:74:35: error: expected ‘;’ before ‘)’ token
+      for (i = 0; i < FDS_LEN, i ++) {
+                                   ^
+../poll.c:90:7: error: incompatible type for argument 1 of ‘serv_read’
+       if (-1 == serv_read(pfd[i])) {
+       ^
+../poll.c:18:5: note: expected ‘int’ but argument is of type ‘struct pollfd’
+ int serv_read(int acceptfd);
+     ^
+../poll.c: In function ‘serv_accept’:
+../poll.c:106:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../poll.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+make: *** [poll.o] Error 1
+20:32:33 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+20:32:34 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+20:32:34 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+20:32:34 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+20:33:04 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+20:33:04 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+20:33:04 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+20:33:04 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+20:33:04 **** Incremental Build of configuration Debug for project PollTest ****
+make all 
+Building file: ../poll.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"poll.d" -MT"poll.o" -o "poll.o" "../poll.c"
+../poll.c: In function ‘main’:
+../poll.c:23:2: warning: implicit declaration of function ‘serv_select’ [-Wimplicit-function-declaration]
+  serv_select(fd);
+  ^
+../poll.c: In function ‘serv_poll’:
+../poll.c:62:3: warning: passing argument 3 of ‘poll’ makes integer from pointer without a cast [enabled by default]
+   switch(poll(pfd, FDS_LEN, &timeout)) {
+   ^
+In file included from ../poll.c:11:0:
+/usr/include/x86_64-linux-gnu/sys/poll.h:57:12: note: expected ‘int’ but argument is of type ‘struct timeval *’
+ extern int poll (struct pollfd *__fds, nfds_t __nfds, int __timeout);
+            ^
+../poll.c: In function ‘serv_accept’:
+../poll.c:106:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../poll.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../poll.c
+ 
+Building target: PollTest
+Invoking: GCC C Linker
+gcc  -o "PollTest"  ./poll.o   
+./poll.o: In function `main':
+/home/zhaocc/workspace/PollTest/Debug/../poll.c:23: undefined reference to `serv_select'
+collect2: error: ld returned 1 exit status
+make: *** [PollTest] Error 1
+20:33:04 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+20:33:04 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+20:33:04 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+20:33:04 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+20:33:25 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+20:33:25 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+20:33:25 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+20:33:25 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+20:33:25 **** Incremental Build of configuration Debug for project PollTest ****
+make all 
+Building file: ../poll.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"poll.d" -MT"poll.o" -o "poll.o" "../poll.c"
+../poll.c: In function ‘serv_poll’:
+../poll.c:62:3: warning: passing argument 3 of ‘poll’ makes integer from pointer without a cast [enabled by default]
+   switch(poll(pfd, FDS_LEN, &timeout)) {
+   ^
+In file included from ../poll.c:11:0:
+/usr/include/x86_64-linux-gnu/sys/poll.h:57:12: note: expected ‘int’ but argument is of type ‘struct timeval *’
+ extern int poll (struct pollfd *__fds, nfds_t __nfds, int __timeout);
+            ^
+../poll.c: In function ‘serv_accept’:
+../poll.c:106:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../poll.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../poll.c
+ 
+Building target: PollTest
+Invoking: GCC C Linker
+gcc  -o "PollTest"  ./poll.o   
+Finished building target: PollTest
+ 
+20:33:25 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+20:33:26 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+20:33:26 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+20:33:26 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+20:33:41 **** Incremental Build of configuration Debug for project PollTest ****
+make all 
+make: Nothing to be done for `all'.
+20:35:23 **** Incremental Build of configuration Debug for project PollTest ****
+make all 
+Building file: ../poll.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"poll.d" -MT"poll.o" -o "poll.o" "../poll.c"
+../poll.c: In function ‘serv_accept’:
+../poll.c:105:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../poll.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../poll.c
+ 
+Building target: PollTest
+Invoking: GCC C Linker
+gcc  -o "PollTest"  ./poll.o   
+Finished building target: PollTest
+ 
+21:11:04 **** Incremental Build of configuration Debug for project PollTest ****
+make all 
+make: Nothing to be done for `all'.
+21:37:40 **** Build of configuration Debug for project EpollTest ****
+make all 
+Building file: ../poll.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"poll.d" -MT"poll.o" -o "poll.o" "../poll.c"
+../poll.c: In function ‘serv_epoll’:
+../poll.c:55:13: error: incompatible types when assigning to type ‘epoll_data_t’ from type ‘int’
+  event.data = listenfd;
+             ^
+../poll.c:72:4: error: a label can only be part of a statement and a declaration is not a statement
+    int i;
+    ^
+../poll.c:74:24: error: invalid operands to binary == (have ‘epoll_data_t’ and ‘int’)
+     if (events[i].data == listenfd && events[i].events & EPOLLIN) {
+                        ^
+../poll.c:78:19: error: incompatible types when assigning to type ‘epoll_data_t’ from type ‘int’
+        event.data = acceptfd;
+                   ^
+../poll.c:81:8: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘epoll_data_t’ [-Wformat=]
+        printf("accept fd = %d\n", events[i].data);
+        ^
+../poll.c:87:31: error: invalid operands to binary != (have ‘epoll_data_t’ and ‘int’)
+     } else if (events[i].data != -1 && events[i].events & EPOLLIN) {
+                               ^
+../poll.c:88:6: error: incompatible type for argument 1 of ‘serv_read’
+      if (-1 == serv_read(events[i].data)) {
+      ^
+../poll.c:18:5: note: expected ‘int’ but argument is of type ‘epoll_data_t’
+ int serv_read(int acceptfd);
+     ^
+../poll.c:89:7: error: incompatible type for argument 3 of ‘epoll_ctl’
+       epoll_ctl(epfd, EPOLL_CTL_DEL, events[i].data, NULL);
+       ^
+In file included from ../poll.c:11:0:
+/usr/include/x86_64-linux-gnu/sys/epoll.h:113:12: note: expected ‘int’ but argument is of type ‘epoll_data_t’
+ extern int epoll_ctl (int __epfd, int __op, int __fd,
+            ^
+../poll.c:90:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘epoll_data_t’ [-Wformat=]
+       printf("delete fd = %d\n", events[i].data);
+       ^
+../poll.c: In function ‘serv_accept’:
+../poll.c:104:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../poll.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+make: *** [poll.o] Error 1
+21:37:41 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:37:41 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:37:41 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+21:37:41 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:37:41 **** Incremental Build of configuration Debug for project PollTest ****
+make all 
+make: Nothing to be done for `all'.
+21:37:41 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+21:37:42 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+21:37:42 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:37:42 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+21:38:43 **** Incremental Build of configuration Debug for project EpollTest ****
+make all 
+Building file: ../poll.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"poll.d" -MT"poll.o" -o "poll.o" "../poll.c"
+../poll.c: In function ‘serv_epoll’:
+../poll.c:72:4: error: a label can only be part of a statement and a declaration is not a statement
+    int i;
+    ^
+../poll.c:74:24: error: invalid operands to binary == (have ‘epoll_data_t’ and ‘int’)
+     if (events[i].data == listenfd && events[i].events & EPOLLIN) {
+                        ^
+../poll.c:78:19: error: incompatible types when assigning to type ‘epoll_data_t’ from type ‘int’
+        event.data = acceptfd;
+                   ^
+../poll.c:81:8: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘epoll_data_t’ [-Wformat=]
+        printf("accept fd = %d\n", events[i].data);
+        ^
+../poll.c:87:31: error: invalid operands to binary != (have ‘epoll_data_t’ and ‘int’)
+     } else if (events[i].data != -1 && events[i].events & EPOLLIN) {
+                               ^
+../poll.c:88:6: error: incompatible type for argument 1 of ‘serv_read’
+      if (-1 == serv_read(events[i].data)) {
+      ^
+../poll.c:18:5: note: expected ‘int’ but argument is of type ‘epoll_data_t’
+ int serv_read(int acceptfd);
+     ^
+../poll.c:89:7: error: incompatible type for argument 3 of ‘epoll_ctl’
+       epoll_ctl(epfd, EPOLL_CTL_DEL, events[i].data, NULL);
+       ^
+In file included from ../poll.c:11:0:
+/usr/include/x86_64-linux-gnu/sys/epoll.h:113:12: note: expected ‘int’ but argument is of type ‘epoll_data_t’
+ extern int epoll_ctl (int __epfd, int __op, int __fd,
+            ^
+../poll.c:90:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘epoll_data_t’ [-Wformat=]
+       printf("delete fd = %d\n", events[i].data);
+       ^
+../poll.c: In function ‘serv_accept’:
+../poll.c:104:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../poll.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+make: *** [poll.o] Error 1
+21:38:43 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:38:43 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:38:43 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+21:38:43 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:38:44 **** Incremental Build of configuration Debug for project PollTest ****
+make all 
+make: Nothing to be done for `all'.
+21:38:44 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+21:38:44 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+21:38:44 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:38:44 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+21:40:47 **** Incremental Build of configuration Debug for project EpollTest ****
+make all 
+Building file: ../poll.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"poll.d" -MT"poll.o" -o "poll.o" "../poll.c"
+../poll.c: In function ‘serv_epoll’:
+../poll.c:72:4: error: a label can only be part of a statement and a declaration is not a statement
+    int i;
+    ^
+../poll.c:81:8: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘epoll_data_t’ [-Wformat=]
+        printf("accept fd = %d\n", events[i].data);
+        ^
+../poll.c:90:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘epoll_data_t’ [-Wformat=]
+       printf("delete fd = %d\n", events[i].data);
+       ^
+../poll.c: In function ‘serv_accept’:
+../poll.c:104:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../poll.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+make: *** [poll.o] Error 1
+21:40:47 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:40:47 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:40:47 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+21:40:47 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:40:48 **** Incremental Build of configuration Debug for project PollTest ****
+make all 
+make: Nothing to be done for `all'.
+21:40:48 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+21:40:48 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+21:40:48 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:40:48 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+21:41:12 **** Incremental Build of configuration Debug for project EpollTest ****
+make all 
+Building file: ../poll.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"poll.d" -MT"poll.o" -o "poll.o" "../poll.c"
+../poll.c: In function ‘serv_epoll’:
+../poll.c:81:8: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘epoll_data_t’ [-Wformat=]
+        printf("accept fd = %d\n", events[i].data);
+        ^
+../poll.c:90:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘epoll_data_t’ [-Wformat=]
+       printf("delete fd = %d\n", events[i].data);
+       ^
+../poll.c: In function ‘serv_accept’:
+../poll.c:104:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../poll.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../poll.c
+ 
+Building target: EpollTest
+Invoking: GCC C Linker
+gcc  -o "EpollTest"  ./poll.o   
+Finished building target: EpollTest
+ 
+21:41:12 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:41:12 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:41:12 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+21:41:13 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:41:13 **** Incremental Build of configuration Debug for project PollTest ****
+make all 
+make: Nothing to be done for `all'.
+21:41:13 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+21:41:13 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+21:41:13 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:41:14 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+21:41:35 **** Incremental Build of configuration Debug for project EpollTest ****
+make all 
+make: Nothing to be done for `all'.
+21:43:58 **** Incremental Build of configuration Debug for project EpollTest ****
+make all 
+Building file: ../poll.c
+../poll.c: In function ‘serv_accept’:
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"poll.d" -MT"poll.o" -o "poll.o" "../poll.c"
+../poll.c:104:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../poll.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../poll.c
+ 
+Building target: EpollTest
+Invoking: GCC C Linker
+gcc  -o "EpollTest"  ./poll.o   
+Finished building target: EpollTest
+ 
+21:52:25 **** Incremental Build of configuration Debug for project PollTest ****
+make all 
+make: Nothing to be done for `all'.
+21:55:03 **** Incremental Build of configuration Debug for project EpollTest ****
+make all 
+Building file: ../epoll.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"epoll.d" -MT"epoll.o" -o "epoll.o" "../epoll.c"
+../epoll.c: In function ‘serv_epoll’:
+../epoll.c:81:40: error: subscripted value is neither array nor pointer nor vector
+        printf("accept fd = %d\n", event[i].data.fd);
+                                        ^
+../epoll.c: In function ‘serv_accept’:
+../epoll.c:104:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../epoll.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+make: *** [epoll.o] Error 1
+21:55:53 **** Incremental Build of configuration Debug for project EpollTest ****
+make all 
+Building file: ../epoll.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"epoll.d" -MT"epoll.o" -o "epoll.o" "../epoll.c"
+../epoll.c: In function ‘serv_accept’:
+../epoll.c:104:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../epoll.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../epoll.c
+ 
+Building target: EpollTest
+Invoking: GCC C Linker
+gcc  -o "EpollTest"  ./epoll.o   
+Finished building target: EpollTest
+ 
+21:55:54 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:55:54 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:55:54 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+make: Nothing to be done for `all'.
+21:55:54 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:55:54 **** Incremental Build of configuration Debug for project PollTest ****
+make all 
+make: Nothing to be done for `all'.
+21:55:55 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+21:55:55 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+21:55:55 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:55:55 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+21:56:06 **** Incremental Build of configuration Debug for project EpollTest ****
+make all 
+make: Nothing to be done for `all'.
+21:57:35 **** Incremental Build of configuration Debug for project EpollTest ****
+make all 
+make: Nothing to be done for `all'.
+08:56:48 **** Incremental Build of configuration Debug for project EpollTest ****
+make all 
+Building file: ../epoll.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"epoll.d" -MT"epoll.o" -o "epoll.o" "../epoll.c"
+../epoll.c: In function ‘serv_accept’:
+../epoll.c:105:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../epoll.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../epoll.c
+ 
+Building target: EpollTest
+Invoking: GCC C Linker
+gcc  -o "EpollTest"  ./epoll.o   
+Finished building target: EpollTest
+ 
+08:57:18 **** Build of configuration Debug for project AioTest ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:11:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^
+../main.c: In function ‘main’:
+../main.c:22:31: error: incompatible type for argument 1 of ‘bzero’
+  bzero(m_aiocb, sizeof(struct aiocb));
+                               ^
+In file included from ../main.c:6:0:
+/usr/include/string.h:459:13: note: expected ‘void *’ but argument is of type ‘struct aiocb’
+ extern void bzero (void *__s, size_t __n) __THROW __nonnull ((1));
+             ^
+../main.c:39:3: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘volatile void *’ [-Wformat=]
+   printf("string:%s", m_aiocb.aio_buf + m_aiocb.aio_offset);
+   ^
+make: *** [main.o] Error 1
+08:57:29 **** Incremental Build of configuration Debug for project AioTest ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:11:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^
+../main.c: In function ‘main’:
+../main.c:39:3: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘volatile void *’ [-Wformat=]
+   printf("string:%s", m_aiocb.aio_buf + m_aiocb.aio_offset);
+   ^
+Finished building: ../main.c
+ 
+Building target: AioTest
+Invoking: GCC C Linker
+gcc  -o "AioTest"  ./main.o   
+./main.o: In function `main':
+/home/zhaocc/workspace/AioTest/Debug/../main.c:28: undefined reference to `aio_read'
+/home/zhaocc/workspace/AioTest/Debug/../main.c:33: undefined reference to `aio_error'
+/home/zhaocc/workspace/AioTest/Debug/../main.c:36: undefined reference to `aio_return'
+collect2: error: ld returned 1 exit status
+make: *** [AioTest] Error 1

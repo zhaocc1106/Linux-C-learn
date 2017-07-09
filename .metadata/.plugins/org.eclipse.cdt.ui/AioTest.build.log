@@ -1,0 +1,26 @@
+08:57:29 **** Incremental Build of configuration Debug for project AioTest ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:11:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^
+../main.c: In function ‘main’:
+../main.c:39:3: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘volatile void *’ [-Wformat=]
+   printf("string:%s", m_aiocb.aio_buf + m_aiocb.aio_offset);
+   ^
+Finished building: ../main.c
+ 
+Building target: AioTest
+Invoking: GCC C Linker
+gcc  -o "AioTest"  ./main.o   
+./main.o: In function `main':
+/home/zhaocc/workspace/AioTest/Debug/../main.c:28: undefined reference to `aio_read'
+/home/zhaocc/workspace/AioTest/Debug/../main.c:33: undefined reference to `aio_error'
+/home/zhaocc/workspace/AioTest/Debug/../main.c:36: undefined reference to `aio_return'
+collect2: error: ld returned 1 exit status
+make: *** [AioTest] Error 1
+
+08:57:29 Build Finished (took 113ms)
+

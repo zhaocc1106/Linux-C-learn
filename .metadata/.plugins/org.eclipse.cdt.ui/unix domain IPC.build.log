@@ -1,0 +1,33 @@
+19:56:33 **** Incremental Build of configuration Debug for project unix domain IPC ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.c"
+../test.c: In function ‘client_func’:
+../test.c:27:3: warning: implicit declaration of function ‘sprintf’ [-Wimplicit-function-declaration]
+   sprintf(un.sun_path, "file_%d.socket", (int)getpid());
+   ^
+../test.c:27:3: warning: incompatible implicit declaration of built-in function ‘sprintf’ [enabled by default]
+../test.c:35:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("connect server failed...\n");
+     ^
+../test.c:35:5: warning: incompatible implicit declaration of built-in function ‘printf’ [enabled by default]
+../test.c:43:3: warning: incompatible implicit declaration of built-in function ‘printf’ [enabled by default]
+   printf("send data, %d bytes..\n", n);
+   ^
+../test.c: In function ‘main’:
+../test.c:77:7: warning: incompatible implicit declaration of built-in function ‘printf’ [enabled by default]
+       printf("newfd = %d, path = %s\n", newfd, uu.sun_path);
+       ^
+Finished building: ../test.c
+ 
+Building target: unix domain IPC
+Invoking: GCC C Linker
+gcc  -o "unix domain IPC"  ./test.o   
+./test.o: In function `main':
+/home/zhaocc/workspace/unix domain IPC/Debug/../test.c:66: undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make: *** [unix domain IPC] Error 1
+
+19:56:35 Build Finished (took 2s.721ms)
+

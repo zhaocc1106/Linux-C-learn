@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LocalSocketClient/server.c&apos; to &apos;client.c&apos;" description="Rename resource &apos;server.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="server.c" name="client.c" stamp="1494925526324" updateReferences="true"/>
+</session>
