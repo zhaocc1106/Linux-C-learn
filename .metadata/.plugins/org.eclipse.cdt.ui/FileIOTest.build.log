@@ -1,6 +1,6 @@
-21:55:54 **** Incremental Build of configuration Debug for project FileIOTest ****
+21:45:13 **** Incremental Build of configuration Debug for project FileIOTest ****
 make all 
 make: Nothing to be done for `all'.
 
-21:55:54 Build Finished (took 185ms)
+21:45:13 Build Finished (took 61ms)
 

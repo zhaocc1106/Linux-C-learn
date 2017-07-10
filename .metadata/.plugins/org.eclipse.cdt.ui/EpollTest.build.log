@@ -1,23 +1,6 @@
-08:56:48 **** Incremental Build of configuration Debug for project EpollTest ****
+21:46:05 **** Incremental Build of configuration Debug for project EpollTest ****
 make all 
-Building file: ../epoll.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"epoll.d" -MT"epoll.o" -o "epoll.o" "../epoll.c"
-../epoll.c: In function ‘serv_accept’:
-../epoll.c:105:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
-  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
-                                        ^
-In file included from ../epoll.c:4:0:
-/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
- extern int accept (int __fd, __SOCKADDR_ARG __addr,
-            ^
-Finished building: ../epoll.c
- 
-Building target: EpollTest
-Invoking: GCC C Linker
-gcc  -o "EpollTest"  ./epoll.o   
-Finished building target: EpollTest
- 
+make: Nothing to be done for `all'.
 
-08:56:49 Build Finished (took 719ms)
+21:46:05 Build Finished (took 64ms)
 

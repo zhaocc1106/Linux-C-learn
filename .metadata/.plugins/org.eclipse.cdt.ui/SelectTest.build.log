@@ -1,6 +1,6 @@
-21:55:55 **** Incremental Build of configuration Debug for project SelectTest ****
+21:45:14 **** Incremental Build of configuration Debug for project SelectTest ****
 make all 
 make: Nothing to be done for `all'.
 
-21:55:55 Build Finished (took 172ms)
+21:45:14 Build Finished (took 63ms)
 

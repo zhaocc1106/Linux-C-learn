@@ -3523,3 +3523,159 @@ gcc  -o "AioTest"  ./main.o
 /home/zhaocc/workspace/AioTest/Debug/../main.c:36: undefined reference to `aio_return'
 collect2: error: ld returned 1 exit status
 make: *** [AioTest] Error 1
+21:44:02 **** Incremental Build of configuration Debug for project EpollTest ****
+make all 
+Building file: ../epoll.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"epoll.d" -MT"epoll.o" -o "epoll.o" "../epoll.c"
+../epoll.c: In function ‘serv_accept’:
+../epoll.c:105:40: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+  if ((confd = accept(listenfd, (struct sockaddr*) &client_sun, &un_len))
+                                        ^
+In file included from ../epoll.c:4:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+Finished building: ../epoll.c
+ 
+Building target: EpollTest
+Invoking: GCC C Linker
+gcc  -o "EpollTest"  ./epoll.o   
+Finished building target: EpollTest
+ 
+21:44:04 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:44:04 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:44:04 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+../client.c:9:19: fatal error: thread.h: No such file or directory
+ #include<thread.h>
+                   ^
+compilation terminated.
+make: *** [client.o] Error 1
+21:44:04 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:44:05 **** Incremental Build of configuration Debug for project PollTest ****
+make all 
+make: Nothing to be done for `all'.
+21:44:05 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+21:44:05 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+21:44:05 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:44:05 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+21:44:05 **** Build of configuration Debug for project longjmpTest ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:11:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main (void)
+      ^
+../main.c: In function ‘main’:
+../main.c:36:2: error: too many arguments to function ‘func1’
+  func1(globalval, autoval, regival, volval, staval);
+  ^
+../main.c:5:13: note: declared here
+ static void func1(int, int, int, int);
+             ^
+../main.c: At top level:
+../main.c:41:13: error: conflicting types for ‘func1’
+ static void func1(int a, int b, int c, int d, int e)
+             ^
+../main.c:5:13: note: previous declaration of ‘func1’ was here
+ static void func1(int, int, int, int);
+             ^
+../main.c: In function ‘func1’:
+../main.c:45:42: error: ‘autoval’ undeclared (first use in this function)
+    " volval:%d, staval:%d\n", globalval, autoval, regival, volval, staval);
+                                          ^
+../main.c:45:42: note: each undeclared identifier is reported only once for each function it appears in
+../main.c:45:51: error: ‘regival’ undeclared (first use in this function)
+    " volval:%d, staval:%d\n", globalval, autoval, regival, volval, staval);
+                                                   ^
+../main.c:45:60: error: ‘volval’ undeclared (first use in this function)
+    " volval:%d, staval:%d\n", globalval, autoval, regival, volval, staval);
+                                                            ^
+../main.c:45:68: error: ‘staval’ undeclared (first use in this function)
+    " volval:%d, staval:%d\n", globalval, autoval, regival, volval, staval);
+                                                                    ^
+../main.c: At top level:
+../main.c:5:13: warning: ‘func1’ used but never defined [enabled by default]
+ static void func1(int, int, int, int);
+             ^
+../main.c:41:13: warning: ‘func1’ defined but not used [-Wunused-function]
+ static void func1(int a, int b, int c, int d, int e)
+             ^
+make: *** [main.o] Error 1
+21:45:13 **** Incremental Build of configuration Debug for project EpollTest ****
+make all 
+make: Nothing to be done for `all'.
+21:45:13 **** Incremental Build of configuration Debug for project FileIOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:45:13 **** Incremental Build of configuration Debug for project IOTest ****
+make all 
+make: Nothing to be done for `all'.
+21:45:13 **** Incremental Build of configuration Debug for project LocalSocketClient ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+../client.c:9:19: fatal error: thread.h: No such file or directory
+ #include<thread.h>
+                   ^
+compilation terminated.
+make: *** [client.o] Error 1
+21:45:14 **** Incremental Build of configuration Debug for project LocalSocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:45:14 **** Incremental Build of configuration Debug for project PollTest ****
+make all 
+make: Nothing to be done for `all'.
+21:45:14 **** Incremental Build of configuration Debug for project SelectTest ****
+make all 
+make: Nothing to be done for `all'.
+21:45:14 **** Incremental Build of configuration Debug for project SocketClient ****
+make all 
+make: Nothing to be done for `all'.
+21:45:14 **** Incremental Build of configuration Debug for project SocketServer ****
+make all 
+make: Nothing to be done for `all'.
+21:45:14 **** Incremental Build of configuration Debug for project first ****
+make all 
+make: Nothing to be done for `all'.
+21:45:14 **** Incremental Build of configuration Debug for project longjmpTest ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:11:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main (void)
+      ^
+Finished building: ../main.c
+ 
+Building target: longjmpTest
+Invoking: GCC C Linker
+gcc  -o "longjmpTest"  ./main.o   
+Finished building target: longjmpTest
+ 
+21:46:05 **** Incremental Build of configuration Debug for project EpollTest ****
+make all 
+make: Nothing to be done for `all'.
+21:46:20 **** Incremental Build of configuration Debug for project longjmpTest ****
+make all 
+make: Nothing to be done for `all'.
